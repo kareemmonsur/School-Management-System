@@ -13,4 +13,10 @@ public class School {
     List<Staff> staffs = new ArrayList<>();
     List<Student> students = new ArrayList<>();
 
+    public School(long ID, String name, String description, SchoolType type) {
+        this.ID = ID;
+        Name = name;
+        this.description = description;
+        this.type = type;
+    }
 }

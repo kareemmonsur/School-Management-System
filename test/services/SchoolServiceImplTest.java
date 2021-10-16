@@ -1,5 +1,6 @@
 package services;
 
+import models.School;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -18,6 +19,7 @@ class SchoolServiceImplTest {
     @Test
     @DisplayName("Add School")
     void add() {
+        School school = new School()
     }
 
     @Test
