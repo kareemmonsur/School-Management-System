@@ -40,7 +40,7 @@ public class SchoolServiceImpl implements SchoolServices{
 
     @Override
     public List<School> getAll() {
-        return schools;
+        return null;
 
     }
 }

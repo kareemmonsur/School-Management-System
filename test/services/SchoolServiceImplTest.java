@@ -19,7 +19,13 @@ class SchoolServiceImplTest {
     @Test
     @DisplayName("Add School")
     void add() {
-        School school1 = new School("Gidi Grams", "Sport school");
+        School school1 = new School(
+                "Gidi Grams",
+                "Sport school");
+        assertEquals(1, school1.getId());
+        School school2 = new School("school of logic",
+                "fine school");
+        assertEquals(2, school2.getId());
     }
 
     @Test
