@@ -19,7 +19,7 @@ class SchoolServiceImplTest {
     @Test
     @DisplayName("Add School")
     void add() {
-        School school = new School()
+        School school1 = new School("Gidi Grams", "Sport school");
     }
 
     @Test
