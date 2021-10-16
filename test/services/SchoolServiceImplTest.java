@@ -1,5 +1,6 @@
 package services;
 
+import db.SchoolDb;
 import models.School;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -10,10 +11,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class SchoolServiceImplTest {
 
     private SchoolServices service;
+    private SchoolDb schoolDb;
 
     @BeforeEach
     void setUp() {
         service = new SchoolServiceImpl();
+        schoolDb = new SchoolDb();
     }
 
     @Test
