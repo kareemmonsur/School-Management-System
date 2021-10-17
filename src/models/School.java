@@ -16,14 +16,14 @@ public class School {
 
     private static long count = 0;
 
-    public School( String name, String description, SchoolType type) {
+    public School(String name, String description, SchoolType type) {
         this.Id = ++ count;
         Name = name;
         this.description = description;
         this.type = type;
     }
     public School(){
-      //  this.Id = ++ count;
+      this.Id = ++ count;
 
     }
 
