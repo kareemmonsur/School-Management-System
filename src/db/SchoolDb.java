@@ -20,4 +20,7 @@ public class SchoolDb {
     public School findById(long id) {
         return schools.get((int) id);
     }
+    public List<School> getAll() {
+        return schools;
+    }
 }

@@ -12,4 +12,5 @@ public interface SchoolServices {
     School findById(long id);
     List<School> getAll();
 
+    public void addAll(School...schools);
 }
